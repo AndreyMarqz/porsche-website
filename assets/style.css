@@ -22,6 +22,11 @@ header {
     background-color: var(--cor-preto-base);
 }
 
+.hero {
+    margin: 0;
+    padding: 0;
+}
+
 .content-header {
     display: flex;
     justify-content: space-between;
@@ -74,11 +79,15 @@ header {
 }
 
 .text {
-    color: var(--cor-cinza-claro);;
+    color: var(--cor-cinza-claro);
     width: 500px;
     display: flex;
     flex-direction: column;
     gap: 20px;  
+}
+
+.text h1 {
+    font-size: 48px;
 }
 
 .text p {
@@ -104,35 +113,120 @@ header {
     border-radius: 10px;
 }
 
+.pictures {
+    background-color: var(--cor-branco);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .squares {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 110px;
+    gap: 150px;
 }
 
 .square {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 200px;
+    width: 300px;
     height: 200px;
-    margin: 90px;
+    gap: 15px;
+}
+
+.square p {
+    text-align: center;
 }
 
 .square img {
-    border-radius: 20px;
-}
-
-.text-p-pictures {
-    gap: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 60px 60px 0px 60px;
-    text-align: justify;
+    border-radius: 15px;
 }
 
 .text-h1-pictures h1 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
-    margin-top: 60px;
+}
+
+.phrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-cinza-claro);
+    height: 400px;
+}
+
+.phrase-text {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.phrase-text h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Roboto';
+}
+
+.phrase-text p {
+    text-align: end;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.signup {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor-preto-base);
+    color: var(--cor-cinza-claro);
+    border-radius: 15px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.signup-button {
+    background-color: var(--cor-preto-base);
+    padding: 0;
+    border: 1px solid var(--cor-cinza-claro);
+    border-radius: 5px;
+    color: var(--cor-cinza-claro);
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.signup a {
+    text-decoration: none;
+    color: var(--cor-cinza-claro);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-cinza-claro);
+    height: 80px;
+    background-color: var(--cor-preto-base);
+    font-weight: bold;
 }
