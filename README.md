@@ -1,7 +1,7 @@
 # Porsche Brand Landing Page 🏎️
 
-![Project Preview](assets/screenshot1.png)
-![Project Preview](assets/screenshot2.png)
+![Project Preview](assets/images/screenshot1.png)
+![Project Preview](assets/images/screenshot2.png)
 
 ## 📄 About The Project
 
